@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Displays random quotes",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "INSERT LINK HERE",
+      "github_link": "https://github.com/rlertola/a_random_quote_generator-v1",
+      "image_urls": [
+        "static/images/proj10.png",
+        "static/images/proj11.png",
+        "static/images/proj12.png",
+        "static/images/proj14.png",
+        "static/images/proj15.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "Displays a list of students",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "INSERT LINK HERE",
+      "github_link": "https://github.com/rlertola/list_pagination_and_filtering-v1",
+      "image_urls": [
+        "static/images/proj20.png",
+        "static/images/proj21.png",
+        "static/images/proj22.png",
+        "static/images/proj23.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Registration form for a fictitious conference",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "JQuery"
+      ],
+      "live_link": "INSERT LINK HERE",
+      "github_link": "https://github.com/rlertola/interactive-form-v1",
+      "image_urls": [
+        "static/images/proj30.png",
+        "static/images/proj31.png",
+        "static/images/proj32.png",
+        "static/images/proj33.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Guess the Phrase Game",
+      "description": "A game where users guess letters to get a phrase",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "INSERT LINK HERE",
+      "github_link": "https://github.com/rlertola/oop_game-v2",
+      "image_urls": [
+        "static/images/proj40.png",
+        "static/images/proj41.png",
+        "static/images/proj42.png",
+        "static/images/proj43.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Request",
+      "description": "Gets and displays students from the web",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "INSERT LINK HERE",
+      "github_link": "https://github.com/rlertola/public_api_request-v1",
+      "image_urls": [
+        "static/images/proj50.png",
+        "static/images/proj51.png",
+        "static/images/proj52.png",
+        "static/images/proj53.png"
+      ]
+    }
+  ]
+}
