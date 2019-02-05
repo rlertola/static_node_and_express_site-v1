@@ -17,17 +17,30 @@ app.get('/about', (req, res) => {
   res.render('about');
 })
 
-// app.get('/project', (req, res) => {
-//   res.render('project', templateData);
-// });
+app.get('/project:id', (req, res, next) => {
+  let { id } = req.params;
+  if (id > 0 && id <= projects.length) {
+    id -= 1;
+    const { image_urls } = projects[id];
+    const projTemplateData = { id, image_urls, projects };
+    res.render('project', projTemplateData);
+  } else {
+    next();
+  }
+})
 
-app.get('/:id', (req, res) => {
-  const { id } = req.params;
-  const { image_urls } = projects[id];
-  const projTemplateData = { id, image_urls, projects };
-  res.render('project', projTemplateData);
-});
+app.use((req, res, next) => {
+  const err = new Error();
+  err.status = 404;
+  err.message = `Whoops, you got a ${err.status} error. That means the page you're looking for doesn't exist. Please try again.`;
+  next(err);
+})
 
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error');
+})
 
 app.listen(3000, () => {
   console.log('The application is running on 3000')

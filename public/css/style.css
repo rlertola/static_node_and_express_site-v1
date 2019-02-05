@@ -114,6 +114,7 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+
   }
 
   .portfolio-index a{
@@ -148,3 +149,31 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.errors {
+  margin: 25px;
+  border-radius: 5px;
+  background-image: url('/static/images/bluesky.jpg');
+  background-size: 100%;
+  color: white;
+}
+
+.errorH1 {
+  padding: 20px 40px;
+
+}
+
+.errorButton {
+  padding: 20px 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.errorStack {
+  margin: 20px 40px;
+  font-weight: 20px;
+  font-size: 25px;
+}
+
+
+

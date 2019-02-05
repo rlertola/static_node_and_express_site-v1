@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+  div.errors
+    h1.errorH1= error.message
+    a.errorButton(type='link') More details ->
+    div
+      pre.errorStack= error.stack

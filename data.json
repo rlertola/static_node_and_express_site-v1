@@ -9,14 +9,13 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "INSERT LINK HERE",
+      "live_link": "https://rlertola.github.io/a_random_quote_generator-v1/",
       "github_link": "https://github.com/rlertola/a_random_quote_generator-v1",
       "image_urls": [
-        "static/images/proj10.png",
+        "static/images/proj10projPage.png",
         "static/images/proj11.png",
         "static/images/proj12.png",
-        "static/images/proj14.png",
-        "static/images/proj15.png"
+        "static/images/proj14.png"
       ]
     },
     {
@@ -28,13 +27,13 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "INSERT LINK HERE",
-      "github_link": "https://github.com/rlertola/list_pagination_and_filtering-v1",
+      "live_link": "https://rlertola.github.io/list_pagination_and_filtering-v1/",
+      "github_link": "https://rlertola.github.io/list_pagination_and_filtering-v1/",
       "image_urls": [
+        "static/images/proj20projPage.png",
         "static/images/proj20.png",
         "static/images/proj21.png",
-        "static/images/proj22.png",
-        "static/images/proj23.png"
+        "static/images/proj22.png"
       ]
     },
     {
@@ -47,9 +46,10 @@
         "CSS",
         "JQuery"
       ],
-      "live_link": "INSERT LINK HERE",
+      "live_link": "https://rlertola.github.io/interactive-form-v1/",
       "github_link": "https://github.com/rlertola/interactive-form-v1",
       "image_urls": [
+        "static/images/proj30projPage.png",
         "static/images/proj30.png",
         "static/images/proj31.png",
         "static/images/proj32.png",
@@ -65,13 +65,14 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "INSERT LINK HERE",
+      "live_link": "https://rlertola.github.io/oop_game-v2/",
       "github_link": "https://github.com/rlertola/oop_game-v2",
       "image_urls": [
+        "static/images/proj40projPage.png",
         "static/images/proj40.png",
         "static/images/proj41.png",
-        "static/images/proj42.png",
-        "static/images/proj43.png"
+        "static/images/proj43.png",
+        "static/images/proj42.png"
       ]
     },
     {
@@ -83,9 +84,10 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "INSERT LINK HERE",
+      "live_link": "https://rlertola.github.io/public_api_request-v1/",
       "github_link": "https://github.com/rlertola/public_api_request-v1",
       "image_urls": [
+        "static/images/proj50projPage.png",
         "static/images/proj50.png",
         "static/images/proj51.png",
         "static/images/proj52.png",
