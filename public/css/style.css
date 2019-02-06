@@ -1,13 +1,23 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 60px;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
     letter-spacing: 2.5px;
+    font-size: 25px;
+    text-align: center;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    color: #11a78e;
+  }
+
+  .H5sidebar {
+    text-align: left;
+    color: #11a78e;
   }
 
   h6{
@@ -15,10 +25,11 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+
   }
 
   p{
-    font-size: 15px;
+    font-size:30px;
     color: #666;
   }
 
@@ -28,14 +39,19 @@ h1,h2,h3,h4,h5,p{
 
 .text-light{
   color: #666;
+  font-size: 30px;
+}
+
+.text-light.sidebar {
+  font-size: 20px;
 }
 
 .button{
-  background-color: #333;
+  background-color: #040d44;
 }
 
 .button:hover{
-  background-color: #111;
+  background: #11a78e;;
 }
 
 a{
@@ -49,16 +65,16 @@ a:hover{
 .image{
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 1rem;
-  border: solid 4px #fefefe;
-  border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  margin-bottom: 2.5rem;
+  border: solid 4px #6d080807;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #040d44;
   color: #fff;
   box-shadow: none !important;
 }
@@ -84,8 +100,6 @@ a:hover{
 
 .portfolio-breadcrumb{
   margin: 0;
-  padding: 20px;
-  border-bottom: 1px solid #eaeaea;
 }
 
  .portfolio-breadcrumb a{
@@ -99,12 +113,12 @@ a:hover{
 
 .portfolio-intro{
   margin: 0;
-  padding: 40px 50px 30px;
+  padding: 40px 50px 10px;
 }
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .portfolio-index{
@@ -113,8 +127,10 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-
+    margin-bottom: 10px;
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    /* padding: 5px; */
+    /* border-bottom: solid 1px white; */
   }
 
   .portfolio-index a{
@@ -122,11 +138,22 @@ a:hover{
   }
 
   .portfolio-index .cell{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+    }
+
+    .cell.Project {
+      transition: transform .3s;
+      background-color: #040d44;
+      border-radius: 2px;
+    }
+
+    .cell.Project:hover {
+      transition: transform .3s;
+      transform: scale(1.1);
     }
 
 .portfolio-meta{
@@ -151,7 +178,7 @@ a:hover{
 }
 
 .errors {
-  margin: 25px;
+  margin: 30px;
   border-radius: 5px;
   background-image: url('/static/images/bluesky.jpg');
   background-size: 100%;
@@ -165,7 +192,7 @@ a:hover{
 
 .errorButton {
   padding: 20px 40px;
-  color: white;
+  color: #ececec;
   font-size: 20px;
 }
 

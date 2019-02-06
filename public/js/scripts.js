@@ -1,5 +1,7 @@
 $(document).foundation()
 
+// Adds functionality to the button on the errors page.
+// Hides and shows the error details.
 document.addEventListener('DOMContentLoaded', (e) => {
   const errorButton = document.querySelector('.errorButton');
   const errorStack = document.querySelector('.errorStack');

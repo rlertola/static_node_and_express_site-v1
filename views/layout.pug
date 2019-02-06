@@ -6,7 +6,8 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(id="favIcon" rel="icon", href="/static/images/me.jpg")
+    link(id="favIcon" rel="icon", href="/static/images/ME2.jpg")
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,500" rel="stylesheet">
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -15,17 +16,14 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/04/Siberian-cat_Black.jpg')
+            img.thumbnail(src='static/images/ME2.jpg')
           .cell.auto
 
-            //- Add your name here.
-            h5 Ryan Lertola
+            h5.H5sidebar Ryan Lertola
 
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
-            p.text-light
-              | Description
+            p.text-light.sidebar
+              | Full Stack JavaScript Developer
 
-            //- Add about page route to the href below.
             a(href='about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -33,10 +31,8 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Name
       block content
-
 
 
   script(src='/static/js/vendor/jquery.js')

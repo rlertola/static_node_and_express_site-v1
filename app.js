@@ -8,15 +8,19 @@ app.set('view engine', 'pug');
 
 const { projects } = require('./data.json');
 
-let templateData = { projects };
+// Main route; goes to the index page that shows all project thumbnails.
+const templateData = { projects };
 app.get('/', (req, res) => {
   res.render('index', templateData);
 })
 
+// About route.
 app.get('/about', (req, res) => {
   res.render('about');
 })
 
+// Each project page, e.g., /project2.
+// When project thumbnails are clicked it gets routed to one of the project pages.
 app.get('/project:id', (req, res, next) => {
   let { id } = req.params;
   if (id > 0 && id <= projects.length) {
@@ -29,6 +33,7 @@ app.get('/project:id', (req, res, next) => {
   }
 })
 
+// // Error handling. When site is put in that doesn't exist, routes to custom error page.
 app.use((req, res, next) => {
   const err = new Error();
   err.status = 404;
