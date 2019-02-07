@@ -21,7 +21,7 @@
     {
       "id": 1,
       "project_name": "List Pagination and Filtering",
-      "description": "Displays a list of a maximum of 10 students per page with page numbers appended at the bottom. It contains a dynamic search filter that filters search results as you type. Built using vanilla JS, HTML and CSS. Check out my code or a view a live demo of the project by clicking the links to the right.",
+      "description": "Displays a maximum of 10 students per page with page numbers appended at the bottom. Contains a dynamic search filter that filters search results as you type. Built using vanilla JS, HTML and CSS. Check out my code or a view a live demo of the project by clicking the links to the right.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -59,7 +59,7 @@
     {
       "id": 3,
       "project_name": "Guess the Phrase Game",
-      "description": "A game where users guess letters to get a phrase. This project utilizes classes and OOP principles to create the game and the functionality. For more features, see the README in my GitHub repo. Built using vanilla JS, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "description": "A game where users guess letters to get a phrase. This project utilizes classes and OOP principles to create the game and functionality. For more features, see the README in my GitHub repo. Built using vanilla JS, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
       "technologies": [
         "JavaScript",
         "HTML",
