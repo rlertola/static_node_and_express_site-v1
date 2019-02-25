@@ -93,6 +93,27 @@
         "static/images/proj52.png",
         "static/images/proj53.png"
       ]
+    },
+    {
+      "id": 5,
+      "project_name": "Flickr Gallery",
+      "description": "Displays a gallery of images from the Flickr api. Contains a search field as well as three default categories. Built using React and Axios for data-fetching. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React",
+        "Axios"
+      ],
+      "live_link": "https://rlertola.github.io/react-gallery-app/#/",
+      "github_link": "https://github.com/rlertola/react-gallery-app",
+      "image_urls": [
+        "static/images/proj60projPage.png",
+        "static/images/proj60.png",
+        "static/images/proj61.png",
+        "static/images/proj62.png",
+        "static/images/proj63.png"
+      ]
     }
   ]
 }
