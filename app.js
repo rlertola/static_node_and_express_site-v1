@@ -12,12 +12,12 @@ const { projects } = require('./data.json');
 const templateData = { projects };
 app.get('/', (req, res) => {
   res.render('index', templateData);
-})
+});
 
 // About route.
 app.get('/about', (req, res) => {
   res.render('about');
-})
+});
 
 // Each project page, e.g., /project2.
 // When project thumbnails are clicked it gets routed to one of the project pages.
@@ -31,28 +31,26 @@ app.get('/project:id', (req, res, next) => {
   } else {
     next();
   }
-})
+});
 
 // // Error handling. When site is put in that doesn't exist, routes to custom error page.
 app.use((req, res, next) => {
   const err = new Error();
   err.status = 404;
-  err.message = `Whoops, you got a ${err.status} error. That means the page you're looking for doesn't exist. Please try again.`;
+  err.message = `Whoops, you got a ${
+    err.status
+  } error. That means the page you're looking for doesn't exist. Please try again.`;
   next(err);
-})
+});
 
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   res.render('error');
-})
-
-// app.listen(3000, () => {
-//   console.log('The application is running on 3000')
-// });
+});
 
 let port = process.env.PORT;
-if (port == null || port == "") {
+if (port == null || port == '') {
   port = 8000;
 }
 app.listen(port);
