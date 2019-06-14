@@ -90,6 +90,20 @@
         "static/images/proj62.png",
         "static/images/proj63.png"
       ]
+    },
+    {
+      "id": 6,
+      "project_name": "Random Quote Generator",
+      "description": "Displays random quotes and colors every 10 seconds, or with a push of the button. Built using vanilla JS, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://rlertola.github.io/a_random_quote_generator-v1/",
+      "github_link": "https://github.com/rlertola/a_random_quote_generator-v1",
+      "image_urls": [
+        "static/images/proj10.png",
+        "static/images/proj10.png",
+        "static/images/proj12.png",
+        "static/images/proj14.png"
+      ]
     }
   ]
 }
