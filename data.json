@@ -19,31 +19,32 @@
     },
     {
       "id": 1,
-      "project_name": "Student Contact List",
-      "description": "Displays a maximum of 10 students per page with page numbers appended at the bottom. Contains a dynamic search filter that filters search results as you type. Built using vanilla JS, HTML and CSS. Check out my code or a view a live demo of the project by clicking the links to the right.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "https://rlertola.github.io/list_pagination_and_filtering-v1/",
-      "github_link": "https://github.com/rlertola/list_pagination_and_filtering-v1/",
+      "project_name": "Flickr Gallery",
+      "description": "Displays a gallery of images from the Flickr api. Contains a search field as well as three default categories. Built using React and Axios for data-fetching. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "technologies": ["JavaScript", "HTML", "CSS", "React", "Axios"],
+      "live_link": "https://rlertola.github.io/react-gallery-app/#/",
+      "github_link": "https://github.com/rlertola/react-gallery-app",
       "image_urls": [
-        "static/images/proj20projPage.png",
-        "static/images/proj20.png",
-        "static/images/proj21.png",
-        "static/images/proj22.png"
+        "static/images/proj60projPage.png",
+        "static/images/proj60.png",
+        "static/images/proj61.png",
+        "static/images/proj62.png",
+        "static/images/proj63.png"
       ]
     },
     {
       "id": 2,
-      "project_name": "Conference Registration Form",
-      "description": "A registration form for a ficticious conference. App displays error messages when a field is empty when tabbed-out of the field, and when the submit button is pushed. When activities are selected, the total cost is calculated and displayed. For more features, see the README in my GitHub repo. Built using JS, JQuery, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
-      "technologies": ["JavaScript", "HTML", "CSS", "JQuery"],
-      "live_link": "https://rlertola.github.io/interactive-form-v1/",
-      "github_link": "https://github.com/rlertola/interactive-form-v1",
+      "project_name": "Employee Directory",
+      "description": "Gets and displays 12 students from a public API. Uses a dynamic search filter that filters results as you type. Users can also scroll through individual modals by clicking on a person. For more features, see the README in my GitHub repo. Built using vanilla JS, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://rlertola.github.io/public_api_request-v1/",
+      "github_link": "https://github.com/rlertola/public_api_request-v1",
       "image_urls": [
-        "static/images/proj30projPage.png",
-        "static/images/proj30.png",
-        "static/images/proj31.png",
-        "static/images/proj32.png",
-        "static/images/proj33.png"
+        "static/images/proj50projPage.png",
+        "static/images/proj50.png",
+        "static/images/proj51.png",
+        "static/images/proj52.png",
+        "static/images/proj53.png"
       ]
     },
     {
@@ -63,32 +64,31 @@
     },
     {
       "id": 4,
-      "project_name": "Employee Directory",
-      "description": "Gets and displays 12 students from a public API. Uses a dynamic search filter that filters results as you type. Users can also scroll through individual modals by clicking on a person. For more features, see the README in my GitHub repo. Built using vanilla JS, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "https://rlertola.github.io/public_api_request-v1/",
-      "github_link": "https://github.com/rlertola/public_api_request-v1",
+      "project_name": "Conference Registration Form",
+      "description": "A registration form for a ficticious conference. App displays error messages when a field is empty when tabbed-out of the field, and when the submit button is pushed. When activities are selected, the total cost is calculated and displayed. For more features, see the README in my GitHub repo. Built using JS, JQuery, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "technologies": ["JavaScript", "HTML", "CSS", "JQuery"],
+      "live_link": "https://rlertola.github.io/interactive-form-v1/",
+      "github_link": "https://github.com/rlertola/interactive-form-v1",
       "image_urls": [
-        "static/images/proj50projPage.png",
-        "static/images/proj50.png",
-        "static/images/proj51.png",
-        "static/images/proj52.png",
-        "static/images/proj53.png"
+        "static/images/proj30projPage.png",
+        "static/images/proj30.png",
+        "static/images/proj31.png",
+        "static/images/proj32.png",
+        "static/images/proj33.png"
       ]
     },
     {
       "id": 5,
-      "project_name": "Flickr Gallery",
-      "description": "Displays a gallery of images from the Flickr api. Contains a search field as well as three default categories. Built using React and Axios for data-fetching. Check out my code or view a live demo of the project by clicking the links to the right.",
-      "technologies": ["JavaScript", "HTML", "CSS", "React", "Axios"],
-      "live_link": "https://rlertola.github.io/react-gallery-app/#/",
-      "github_link": "https://github.com/rlertola/react-gallery-app",
+      "project_name": "Student Contact List",
+      "description": "Displays a maximum of 10 students per page with page numbers appended at the bottom. Contains a dynamic search filter that filters search results as you type. Built using vanilla JS, HTML and CSS. Check out my code or a view a live demo of the project by clicking the links to the right.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://rlertola.github.io/list_pagination_and_filtering-v1/",
+      "github_link": "https://github.com/rlertola/list_pagination_and_filtering-v1/",
       "image_urls": [
-        "static/images/proj60projPage.png",
-        "static/images/proj60.png",
-        "static/images/proj61.png",
-        "static/images/proj62.png",
-        "static/images/proj63.png"
+        "static/images/proj20projPage.png",
+        "static/images/proj20.png",
+        "static/images/proj21.png",
+        "static/images/proj22.png"
       ]
     },
     {
