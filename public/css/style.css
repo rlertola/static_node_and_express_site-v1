@@ -65,7 +65,11 @@ a:hover {
   color: #111;
 }
 
-a.certs:hover {
+.certs {
+  text-decoration: none;
+}
+
+.certs:hover {
   color: 11a78e;
 }
 
