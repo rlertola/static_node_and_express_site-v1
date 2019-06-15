@@ -3,13 +3,13 @@
     {
       "id": 0,
       "project_name": "Dev Course Library",
-      "description": "Combines a school database REST API with a React frontend. Users can create an account, signin/signout, create, update and delete courses, view course detail, and a full list of courses. This project was built using React, Express, Mongo DB and Mongoose; routing with React-Router, and simple animation with React Spring.Check out my code or view a live demo of the project by clicking the links to the right.",
+      "description": "Combines a school database REST API with a React frontend. Users can create an account, signin/signout, create, update and delete courses, view course detail, and a full list of courses. This project was built using React, Express, Mongo DB and Mongoose; routing with React-Router, and simple animation with React Spring. Check out my code or view a live demo of the project by clicking the links to the right.",
       "technologies": ["React", "Express", "MongoDB", "Mongoose"],
       "live_link": "https://fs-app-with-react-and-restapi.herokuapp.com/",
       "github_link": "https://github.com/rlertola/Full-Stack-App-with-React-and-a-REST-API",
       "image_urls": [
-        "static/images/proj70.png",
         "static/images/proj71.png",
+        "static/images/proj70.png",
         "static/images/proj76.png",
         "static/images/proj72.png",
         "static/images/proj73.png",
@@ -65,7 +65,7 @@
     {
       "id": 4,
       "project_name": "Conference Registration Form",
-      "description": "A registration form for a ficticious conference. App displays error messages when a field is empty when tabbed-out of the field, and when the submit button is pushed. When activities are selected, the total cost is calculated and displayed. For more features, see the README in my GitHub repo. Built using JS, JQuery, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "description": "A registration form for a ficticious conference. App displays error messages when tabbed-out of an empty field, and when the submit button is pushed. When activities are selected, the total cost is calculated and displayed. For more features, see the README in my GitHub repo. Built using JS, JQuery, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
       "technologies": ["JavaScript", "HTML", "CSS", "JQuery"],
       "live_link": "https://rlertola.github.io/interactive-form-v1/",
       "github_link": "https://github.com/rlertola/interactive-form-v1",
