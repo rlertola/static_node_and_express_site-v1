@@ -65,6 +65,10 @@ a:hover {
   color: #111;
 }
 
+a.certs:hover {
+  color: 11a78e;
+}
+
 .image {
   display: inline-block;
   max-width: 100%;
@@ -202,8 +206,4 @@ a:hover {
   margin: 20px 40px;
   font-weight: 20px;
   font-size: 25px;
-}
-
-.certs {
-  color: red;
 }
