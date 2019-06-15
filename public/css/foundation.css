@@ -2523,7 +2523,7 @@ ul.no-bullet, ol.no-bullet {
   .button.expanded {
     display: block;
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
     margin-right: 0;
     margin-left: 0; }
   .button.primary {
