@@ -65,7 +65,7 @@
     {
       "id": 4,
       "project_name": "Conference Registration Form",
-      "description": "A registration form for a ficticious conference. App displays error messages when tabbed-out of an empty field, and when the submit button is pushed. When activities are selected, the total cost is calculated and displayed. For more features, see the README in my GitHub repo. Built using JS, JQuery, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
+      "description": "A registration form for a fictitious conference. App displays error messages when tabbed-out of an empty field, and when the submit button is pushed. When activities are selected, the total cost is calculated and displayed. For more features, see the README in my GitHub repo. Built using JS, JQuery, HTML and CSS. Check out my code or view a live demo of the project by clicking the links to the right.",
       "technologies": ["JavaScript", "HTML", "CSS", "JQuery"],
       "live_link": "https://rlertola.github.io/interactive-form-v1/",
       "github_link": "https://github.com/rlertola/interactive-form-v1",
