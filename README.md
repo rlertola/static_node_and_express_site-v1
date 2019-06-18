@@ -1,6 +1,6 @@
 # TREEHOUSE PROJECT 6 - STATIC NODE AND EXPRESS PORTFOLIO SITE
 
-https://pure-island-73766.herokuapp.com/
+https://ryanlertoladev.herokuapp.com/
 
 This project was built using JavaScript, HTML and CSS, and Node, Express and Pug.
 
